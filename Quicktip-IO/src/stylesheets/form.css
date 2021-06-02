@@ -1,0 +1,76 @@
+.form-group {
+  padding: 15px 20px 0px 20px;
+  position: relative;
+}
+
+.form-group label {
+  color: #9c9c9c;
+  font-size: 1.1rem;
+  margin-bottom: 0px;
+  font-family: 'Ubuntu',sans-serif;
+  letter-spacing: .5px;
+  padding-bottom: 5px;
+}
+
+.form-group input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #c9c9c9;
+  color: #7c7c7c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  border-radius: 0;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  padding-left: 25px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  border-bottom: 2px solid #77b7ff;
+  color: #7c7c7c;
+}
+
+.form-group input[type=range] {
+  border-bottom: none;
+  padding: 20px 0;
+  width: 100%;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.form-group .people {
+  color: #69a4ec;
+  font-size: 1.1rem;
+  margin-top: 0px;
+  margin-bottom: -8px;
+  font-family: 'Ubuntu',sans-serif;
+  letter-spacing: .5px;
+}
+
+.form-group .dollar {
+  position: absolute;
+  top: 40px;
+  font-weight: bold;
+  left: 25px;
+  font-size: 1.4rem;
+  color: #0075FF;
+}
+
+.form-group .btn {
+  width: 100%;
+  border-radius: 0;
+  padding: 10px;
+  background-color: #333b47;
+  border: none;
+  font-size: 1.1rem;
+  font-family: 'Montserrat',sans-serif;
+  letter-spacing: 1px;
+  color: #e2e2e2;
+  margin-top: 7px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,151 @@
+.myModal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#50aaff), to(#2c99ff));
+  background-image: linear-gradient(to top, #50aaff, #2c99ff);
+  border: none;
+  border-radius: 2px;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  -webkit-animation: fadeIn .6s ease-in-out;
+          animation: fadeIn .6s ease-in-out;
+  padding: 10px;
+}
+
+.myModal i {
+  font-size: 4rem;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #eff7ff;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.myModal i:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.myModal .result {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  -webkit-animation: moveUp 1s ease-out;
+          animation: moveUp 1s ease-out;
+}
+
+@-webkit-keyframes moveUp {
+  0% {
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+.myModal .result h1 {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu',sans-serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  -webkit-animation: appear 1s linear;
+          animation: appear 1s linear;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.myModal .result h2 {
+  font-size: 2rem;
+  font-family: 'Ubuntu',sans-serif;
+  color: #ffffff !important;
+  font-weight: bold;
+  letter-spacing: 2px;
+  -webkit-animation: appear 1.5s ease-out;
+          animation: appear 1.5s ease-out;
+}
+
+.myModal .result h3 {
+  margin: 20px;
+  font-size: 1.5rem;
+  font-family: 'Ubuntu',sans-serif;
+  color: #fffffff1 !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+  -webkit-animation: appear 1.5s ease-out;
+          animation: appear 1.5s ease-out;
+}
+
+.myModal .result h4 {
+  margin: 20px;
+  font-size: 1.3rem;
+  font-family: 'Ubuntu',sans-serif;
+  color: #ffffffd2 !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+  -webkit-animation: appear 3s ease-out;
+          animation: appear 3s ease-out;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=BillModal.css.map */
